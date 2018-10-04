@@ -9,4 +9,3 @@ colnames(dfStates)=c("stateName","population","popOver18","percentOver18")
 return(dfStates)
 }
 cenFun()
-raw_data
