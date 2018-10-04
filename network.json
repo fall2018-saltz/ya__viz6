@@ -18,6 +18,16 @@
             "ports": [],
             "source": "censusRead.R",
             "target": "mergedDataFrame.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "USArrestsRead.R",
+            "target": "mergedDataFrame.R"
         }
     ],
     "nodes": [
@@ -41,6 +51,6 @@
             "name": "mergedDataFrame.R"
         }
     ],
-    "updated_at": "2018-10-04 16:10:26",
+    "updated_at": "2018-10-04 16:10:41",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
