@@ -1,2 +1,3 @@
 
 View(dfStates)
+View(arrests)
