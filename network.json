@@ -7,12 +7,12 @@
         {
             "ports": [],
             "source": "census.R",
-            "target": "cleanData.csv"
+            "target": "census.csv"
         }
     ],
     "nodes": [
         {
-            "name": "cleanData.csv"
+            "name": "census.csv"
         },
         {
             "assigned_to": "yash",
@@ -24,6 +24,6 @@
             "name": "census.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:45:08",
+    "updated_at": "2018-10-04 15:45:20",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
