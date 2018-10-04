@@ -45,19 +45,19 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "yash",
-            "desc": "",
-            "name": "USArrestsRead.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
             "desc": "",
             "name": "mergedDataFrame.R"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "USArrestsRead.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 16:12:12",
+    "updated_at": "2018-10-04 16:12:40",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
