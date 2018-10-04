@@ -15,26 +15,6 @@
             "target": "censusRead.R"
         },
         {
-            "ports": [
-                {
-                    "output": "arrests",
-                    "type": "csv"
-                }
-            ],
-            "source": "USArrestsRead.R",
-            "target": "USArrests.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "arrests",
-                    "type": "csv"
-                }
-            ],
-            "source": "USArrests.csv",
-            "target": "USArrestsread.R"
-        },
-        {
             "ports": [],
             "source": "USArrestsread.R",
             "target": "mergedDataFrame.R"
@@ -46,9 +26,6 @@
         }
     ],
     "nodes": [
-        {
-            "name": "USArrests.csv"
-        },
         {
             "assigned_to": "yash",
             "desc": "",
@@ -75,6 +52,6 @@
             "name": "mergedDataFrame.R"
         }
     ],
-    "updated_at": "2018-10-04 16:08:07",
+    "updated_at": "2018-10-04 16:10:18",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
