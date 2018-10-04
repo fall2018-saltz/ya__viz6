@@ -15,7 +15,12 @@
             "target": "USArrests.csv"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "censusRead.R"
         }
@@ -46,6 +51,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:53:58",
+    "updated_at": "2018-10-04 15:55:19",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
