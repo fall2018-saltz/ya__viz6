@@ -1,5 +1,5 @@
 
-cenFun=function()
+cenFun=function(raw_data)
 {
 dfStates=raw_data
 dfStates=dfStates[-53,]
@@ -8,4 +8,5 @@ dfStates=dfStates[,-c(1,2,3,4)]
 colnames(dfStates)=c("stateName","population","popOver18","percentOver18")
 return(dfStates)
 }
-cenFun()
+cenFun(raw_data)
+raw_data
