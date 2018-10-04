@@ -25,7 +25,12 @@
             "target": "USArrests.csv"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "arrests",
+                    "type": "csv"
+                }
+            ],
             "source": "USArrests.csv",
             "target": "USArrests.R"
         }
@@ -54,6 +59,6 @@
             "name": "USArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 16:01:57",
+    "updated_at": "2018-10-04 16:03:57",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
