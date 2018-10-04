@@ -6,7 +6,7 @@
     "edges": [
         {
             "ports": [],
-            "source": "census.R",
+            "source": "censusRead.R",
             "target": "census.csv"
         },
         {
@@ -20,12 +20,6 @@
             "name": "census.csv"
         },
         {
-            "assigned_to": "yash",
-            "desc": "",
-            "name": "census.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "census.csv"
         },
         {
@@ -36,8 +30,14 @@
             "desc": "",
             "name": "USArrests.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "censusRead.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:49:34",
+    "updated_at": "2018-10-04 15:50:10",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
