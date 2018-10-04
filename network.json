@@ -22,8 +22,12 @@
         },
         {
             "name": "census.csv"
+        },
+        {
+            "desc": "",
+            "name": "USArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 15:45:20",
+    "updated_at": "2018-10-04 15:45:45",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
