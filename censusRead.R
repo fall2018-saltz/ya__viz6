@@ -1,7 +1,7 @@
 
 cenFun=function()
 {
-dfStates=raw_data
+dfStates=read.csv(raw_data)
 dfStates=dfStates[-53,]
 dfStates=dfStates[-1,]
 dfStates=dfStates[,-c(1,2,3,4)]
