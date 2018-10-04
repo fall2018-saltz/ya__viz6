@@ -1,3 +1,3 @@
 
 arrests=USArrests
-arrests
+
