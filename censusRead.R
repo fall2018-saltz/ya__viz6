@@ -8,3 +8,4 @@ dfStates=dfStates[,-c(1,2,3,4)]
 colnames(dfStates)=c("stateName","population","popOver18","percentOver18")
 return(dfStates)
 }
+cenFun()
