@@ -43,8 +43,12 @@
         },
         {
             "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "desc": "",
+            "name": "USArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 15:59:58",
+    "updated_at": "2018-10-04 16:01:37",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
