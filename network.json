@@ -8,6 +8,11 @@
             "ports": [],
             "source": "census.R",
             "target": "census.csv"
+        },
+        {
+            "ports": [],
+            "source": "USArrests.R",
+            "target": "USArrests.csv"
         }
     ],
     "nodes": [
@@ -33,6 +38,6 @@
             "name": "USArrests.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:47:29",
+    "updated_at": "2018-10-04 15:47:38",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
