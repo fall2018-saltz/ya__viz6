@@ -24,10 +24,15 @@
             "name": "census.csv"
         },
         {
+            "assigned_to": "yash",
             "desc": "",
-            "name": "USArrests.R"
+            "name": "USArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "USArrests.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:45:45",
+    "updated_at": "2018-10-04 15:47:29",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
