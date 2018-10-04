@@ -28,8 +28,11 @@
             "desc": "",
             "name": "census.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "census.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:43:50",
+    "updated_at": "2018-10-04 15:44:03",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
