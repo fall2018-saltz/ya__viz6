@@ -6,7 +6,7 @@
     "edges": [
         {
             "ports": [],
-            "source": "clean.R",
+            "source": "census.R",
             "target": "MergeArrests.R"
         },
         {
@@ -17,18 +17,19 @@
     ],
     "nodes": [
         {
-            "assigned_to": "yash",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "desc": "",
             "name": "MergeArrests.R"
         },
         {
             "name": "cleanData.csv"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "census.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:41:18",
+    "updated_at": "2018-10-04 15:43:50",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
