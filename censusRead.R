@@ -1,5 +1,5 @@
 
-cenFun=function( dfStates)
+cenFun=function(dfStates)
 {
 dfStates=raw_data
 dfStates=dfStates[-53,]
