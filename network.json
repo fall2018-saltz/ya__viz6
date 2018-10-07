@@ -27,13 +27,18 @@
         },
         {
             "ports": [],
-            "source": "censusRead.R",
-            "target": "cleanA.csv"
-        },
-        {
-            "ports": [],
             "source": "cleanA.csv",
             "target": "mergedDataFrame.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "cleandata",
+                    "type": "csv"
+                }
+            ],
+            "source": "censusRead.R",
+            "target": "cleanA.csv"
         }
     ],
     "nodes": [
@@ -62,6 +67,6 @@
             "name": "cleanA.csv"
         }
     ],
-    "updated_at": "2018-10-07 13:50:27",
+    "updated_at": "2018-10-07 13:51:59",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
