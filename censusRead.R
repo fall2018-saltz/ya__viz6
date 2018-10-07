@@ -2,7 +2,7 @@
 cenFun=function(raw_data)
 {
 dfStates=raw_data
-dfStates=states[-53,]
+dfStates=dfStatestates[-53,]
 dfStates=dfStates[-1,]
 dfStates=dfStates[,-c(1,2,3,4)]
 colnames(dfStates)=c("stateName","population","popOver18","percentOver18")
