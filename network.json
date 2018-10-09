@@ -1,0 +1,89 @@
+{
+    "collaborators": [
+        "yash"
+    ],
+    "created_at": "2018-10-04 15:16:19",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "censusRead.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "cleandata",
+                    "type": "csv"
+                }
+            ],
+            "source": "censusRead.R",
+            "target": "cleanA.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfStates",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanA.csv",
+            "target": "mergedDataFrame.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arrests",
+                    "type": "csv"
+                }
+            ],
+            "source": "USArrestsRead.R",
+            "target": "arrests.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "type": "csv"
+                }
+            ],
+            "source": "arrests.csv",
+            "target": "mergedDataFrame.R"
+        }
+    ],
+    "nodes": [
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "censusRead.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "mergedDataFrame.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "USArrestsRead.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "cleanA.csv"
+        },
+        {
+            "name": "arrests.csv"
+        }
+    ],
+    "updated_at": "2018-10-09 20:33:58",
+    "url": "https://github.com/fall2018-saltz/ya__viz6"
+}
