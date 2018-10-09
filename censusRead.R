@@ -16,3 +16,4 @@ arrests=USArrests
 arrests
 arrests$stateName=""
 arrests$stateName=rownames(arrests)
+arrests
