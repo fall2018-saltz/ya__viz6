@@ -17,17 +17,6 @@
         {
             "ports": [
                 {
-                    "input": "arrests",
-                    "output": "arrests",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "USArrestsRead.R",
-            "target": "mergedDataFrame.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "cleandata",
                     "type": "csv"
                 }
@@ -47,6 +36,16 @@
                 }
             ],
             "source": "cleanA.csv",
+            "target": "mergedDataFrame.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "USArrestsRead.R",
             "target": "mergedDataFrame.R"
         }
     ],
@@ -76,6 +75,6 @@
             "name": "cleanA.csv"
         }
     ],
-    "updated_at": "2018-10-09 18:47:00",
+    "updated_at": "2018-10-09 19:34:55",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
