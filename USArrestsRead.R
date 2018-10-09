@@ -1,3 +1,4 @@
 
 arrests=USArrests
-stateName = rownames(arrests)
+arrest$stateName <- ''
+arrest$stateName = rownames(arrests)
