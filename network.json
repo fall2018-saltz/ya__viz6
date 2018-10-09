@@ -40,6 +40,10 @@
                 {
                     "input": "dfStates",
                     "type": "csv"
+                },
+                {
+                    "input": "cleanA",
+                    "type": "csv"
                 }
             ],
             "source": "cleanA.csv",
@@ -72,6 +76,6 @@
             "name": "cleanA.csv"
         }
     ],
-    "updated_at": "2018-10-07 13:58:43",
+    "updated_at": "2018-10-09 18:47:00",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
