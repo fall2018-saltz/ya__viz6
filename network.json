@@ -69,8 +69,11 @@
         },
         {
             "name": "cleanA.csv"
+        },
+        {
+            "name": "arrests.csv"
         }
     ],
-    "updated_at": "2018-10-09 20:06:11",
+    "updated_at": "2018-10-09 20:32:49",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
