@@ -1,5 +1,5 @@
 
 arrests
 dfStates
-
+colnames(arrests)
 
