@@ -1,3 +1,3 @@
 
 arrests=USArrests
-arrest$stateName = arrests.index
+arrest$stateName = rownames(arrests)
