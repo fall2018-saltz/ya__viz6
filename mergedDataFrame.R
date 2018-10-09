@@ -1,6 +1,6 @@
 
 arrests
-
+colnames(arrests)
 
 
 
