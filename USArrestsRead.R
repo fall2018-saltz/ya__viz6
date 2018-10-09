@@ -1,3 +1,3 @@
 
 arrests=USArrests
-head(arrests)
+arrest$stateName = arrests.index
