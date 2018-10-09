@@ -11,3 +11,7 @@ return(dfStates)
 cleandata=cenFun(raw_data)
 
 
+
+arrests=USArrests
+arrests
+arrests$stateName=""
