@@ -3,4 +3,4 @@ arrests
 dfStates
 colnames(arrests)
 colnames(dfStates)
-head(arrests)
+head(arrests,1)
