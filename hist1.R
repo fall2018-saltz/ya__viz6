@@ -18,11 +18,13 @@ popHist
 
 #generate a histogram for Murder
 #here Murder is on the x-axis
+
 murHist=ggplot(mergedData, aes(x=Murder))
 murHist=murHist+geom_histogram(binwidth=10)
 murHist=murHist+ggtitle("Murder histogram")
 murHist
 
+#generate a histogram for Assault
 #here Assault is on the x-axis
 assHist=ggplot(mergedData,aes(x=Assault))
 assHist=assHist+geom_histogram(binwidth=20)
