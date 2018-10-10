@@ -3,5 +3,6 @@
 arrests=USArrests
 
 #arrests doesn't contain a proper clumn name for state names but has state names as index
+#so create a column to store the state names suing rownames
 
 
