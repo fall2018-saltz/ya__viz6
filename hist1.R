@@ -28,7 +28,7 @@ murHist
 #here Assault is on the x-axis
 
 assHist=ggplot(mergedData,aes(x=Assault))
-assHist=assHist+geom_histogram(binwidth=1)
+assHist=assHist+geom_histogram(binwidth=10)
 assHist=assHist+ggtitle("Assault Histogram")
 assHist
 
@@ -42,7 +42,7 @@ rapeHist
 #generate a Histogram for UrbanPop
 #here UrbanPop is on the x-axis
 urbanHist=ggplot(mergedData, aes(x=UrbanPop))
-urbanHist=urbanHist+geom_histogram(binwidth=1)
+urbanHist=urbanHist+geom_histogram(binwidth=2)
 urbanHist=urbanHist+ ggtitle("UrbanPop Histogram")
 urbanHist
 
