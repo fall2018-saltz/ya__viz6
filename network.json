@@ -32,7 +32,7 @@
                 }
             ],
             "source": "cleanA.csv",
-            "target": "mergedDataFrame.R"
+            "target": "mergeData.R"
         },
         {
             "ports": [
@@ -41,7 +41,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "mergedDataFrame.R",
+            "source": "mergeData.R",
             "target": "mergedData.csv"
         }
     ],
@@ -56,18 +56,18 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "yash",
-            "desc": "",
-            "name": "mergedDataFrame.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "cleanA.csv"
         },
         {
             "name": "mergedData.csv"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "mergeData.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 19:25:02",
+    "updated_at": "2018-10-10 19:25:24",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
