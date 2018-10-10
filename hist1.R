@@ -24,7 +24,7 @@ murHist
 #here Assault is on the x-axis
 assHist=ggplot(mergedData,aes(x=Assault))
 assHist=assHist+geom_histogram(binwidth=20)
-assHist=assHistggtitle("Assault Histogram")
+assHist=assHist+ggtitle("Assault Histogram")
 assHist
 
 #here Rape is on the x-axis
