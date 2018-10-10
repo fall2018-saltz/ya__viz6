@@ -1,6 +1,7 @@
 
 #4)	Create a histogram using GGPLOT for the population and a different histogram for the murder rate
-#importing library for ggplot2
+
+#to use ggplots we must use ggplots library#importing library for ggplot2
 library("ggplot2")
 #generate a histogram
 #dataset. We are using geom_histogram() function with binwidth attribute to group the data 
