@@ -95,8 +95,11 @@
         },
         {
             "name": "popHist.png"
+        },
+        {
+            "name": "murHist.png"
         }
     ],
-    "updated_at": "2018-10-10 20:27:40",
+    "updated_at": "2018-10-10 20:28:16",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
