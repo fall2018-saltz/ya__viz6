@@ -27,31 +27,21 @@
         {
             "ports": [
                 {
-                    "input": "dfStates",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleanA.csv",
-            "target": "mergedDataFrame.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "arrests",
-                    "type": "csv"
-                }
-            ],
-            "source": "USArrestsRead.R",
-            "target": "arrests.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "arrests",
                     "type": "csv"
                 }
             ],
             "source": "arrests.csv",
+            "target": "mergedDataFrame.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "cleanA.csv",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleanA.csv",
             "target": "mergedDataFrame.R"
         }
     ],
@@ -72,18 +62,12 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "yash",
-            "desc": "",
-            "name": "USArrestsRead.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "cleanA.csv"
         },
         {
             "name": "arrests.csv"
         }
     ],
-    "updated_at": "2018-10-09 20:33:58",
+    "updated_at": "2018-10-10 19:07:39",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
