@@ -5,8 +5,10 @@
 #ggplots is already installed so just use it
 library("ggplot2")
 #generate a histogram for population
+
 #aes is used to add the axis here
 popHist=ggplot(mergeDataframe, aes(x=population))
-myPlotPop=myPlotPop + geom_histogram(binwidth = 400000)
+#geom_histogram is used to create the bars of the histogram with a binwidth of 1000000 
+myPlotPop=myPlotPop + geom_histogram(binwidth = 1000000)
 myPlotPop=myPlotPop + ggtitle("Histogram of Population")
 myPlotPop
