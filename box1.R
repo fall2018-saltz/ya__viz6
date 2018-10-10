@@ -19,3 +19,4 @@ murBox=murBox+ ggtitle("Murder Boxplot")
 murBox
 
 #the barcharts seemed more helpful
+#it is easier to analyze
