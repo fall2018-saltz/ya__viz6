@@ -6,4 +6,6 @@ arrests=USArrests
 #so create a column to store the state names suing rownames
 rownames(cleandata)=as.vector(cleandata[,"stateName"})
 
+#now that we have to merge two dataframes using a common element 
+
 
