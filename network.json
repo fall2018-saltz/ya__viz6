@@ -63,6 +63,16 @@
             ],
             "source": "hist1.R",
             "target": "popHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murHist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist1.R",
+            "target": "murHist.png"
         }
     ],
     "nodes": [
@@ -100,6 +110,6 @@
             "name": "murHist.png"
         }
     ],
-    "updated_at": "2018-10-10 20:28:16",
+    "updated_at": "2018-10-10 20:28:33",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
