@@ -133,6 +133,16 @@
             ],
             "source": "mergedData.csv",
             "target": "murCharts.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murCount",
+                    "type": "png"
+                }
+            ],
+            "source": "murCharts.R",
+            "target": "murCount.png"
         }
     ],
     "nodes": [
@@ -197,6 +207,6 @@
             "name": "murCount.png"
         }
     ],
-    "updated_at": "2018-10-10 21:50:31",
+    "updated_at": "2018-10-10 21:51:08",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
