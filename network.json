@@ -113,6 +113,16 @@
             ],
             "source": "box1.R",
             "target": "popBox.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murBox",
+                    "type": "png"
+                }
+            ],
+            "source": "box1.R",
+            "target": "murPop.png"
         }
     ],
     "nodes": [
@@ -168,6 +178,6 @@
             "name": "murPop.png"
         }
     ],
-    "updated_at": "2018-10-10 20:57:27",
+    "updated_at": "2018-10-10 20:57:48",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
