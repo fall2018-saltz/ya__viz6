@@ -20,3 +20,4 @@ murBox
 
 #the barcharts seemed more helpful
 #it is easier to analyze
+#its easier to compare 
