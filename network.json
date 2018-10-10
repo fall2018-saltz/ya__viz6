@@ -122,7 +122,7 @@
                 }
             ],
             "source": "box1.R",
-            "target": "murPop.png"
+            "target": "murBox.png"
         }
     ],
     "nodes": [
@@ -175,9 +175,9 @@
             "name": "popBox.png"
         },
         {
-            "name": "murPop.png"
+            "name": "murBox.png"
         }
     ],
-    "updated_at": "2018-10-10 20:57:48",
+    "updated_at": "2018-10-10 20:59:16",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
