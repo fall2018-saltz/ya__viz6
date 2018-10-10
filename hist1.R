@@ -41,3 +41,4 @@ urbanHist
 
 #here to generate the hisograms, we are uisng the binwidth variable
 #binwidth changes for different variables
+#the sizes of the variables vary so we have to change the binwidth accordingly
