@@ -143,6 +143,16 @@
             ],
             "source": "murCharts.R",
             "target": "murCount.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murCount2",
+                    "type": "png"
+                }
+            ],
+            "source": "murCharts.R",
+            "target": "murCount2.png"
         }
     ],
     "nodes": [
@@ -210,6 +220,6 @@
             "name": "murCount2.png"
         }
     ],
-    "updated_at": "2018-10-10 21:51:20",
+    "updated_at": "2018-10-10 21:51:32",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
