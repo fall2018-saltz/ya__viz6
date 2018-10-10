@@ -20,7 +20,7 @@ popHist
 #here Murder is on the x-axis
 
 murHist=ggplot(mergedData, aes(x=Murder))
-murHist=murHist+geom_histogram(binwidth=3)
+murHist=murHist+geom_histogram(binwidth=1)
 murHist=murHist+ggtitle("Murder histogram")
 murHist
 
