@@ -40,3 +40,4 @@ urbanHist=urbanHist+ ggtitle("UrbanPop Histogram")
 urbanHist
 
 #here to generate the hisograms, we are uisng the binwidth variable
+#binwidth changes for different variables
