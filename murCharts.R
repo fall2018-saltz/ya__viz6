@@ -26,6 +26,7 @@ murCountord=murCountord+ ggtitle("Bar chart of murders per state in sorted order
 murCountord
 
 #to create barchart for percentOver18 in sorted order
+#also the color is percentOver18
 popCountord=ggplot(mergedData, aes(x = reorder(stateName, numMurders), y = numMurders, group = 1))
 popCountord=popCountord+ geom_col(aes(size=percentOver18,color=percentOver18))
 popCountord=popCountord + ggtitle("Bar chart for percentOver18 in sorted order")
