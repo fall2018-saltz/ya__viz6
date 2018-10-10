@@ -132,7 +132,7 @@
                 }
             ],
             "source": "mergedData.csv",
-            "target": "murCharts.R"
+            "target": "murbarCharts.R"
         },
         {
             "ports": [
@@ -141,7 +141,7 @@
                     "type": "png"
                 }
             ],
-            "source": "murCharts.R",
+            "source": "murbarCharts.R",
             "target": "murCount.png"
         },
         {
@@ -151,7 +151,7 @@
                     "type": "png"
                 }
             ],
-            "source": "murCharts.R",
+            "source": "murbarCharts.R",
             "target": "murCount2.png"
         },
         {
@@ -161,7 +161,7 @@
                     "type": "png"
                 }
             ],
-            "source": "murCharts.R",
+            "source": "murbarCharts.R",
             "target": "murCountord.png"
         },
         {
@@ -171,7 +171,7 @@
                     "type": "png"
                 }
             ],
-            "source": "murCharts.R",
+            "source": "murbarCharts.R",
             "target": "popCountord.png"
         }
     ],
@@ -228,12 +228,6 @@
             "name": "murBox.png"
         },
         {
-            "assigned_to": "yash",
-            "desc": "",
-            "name": "murCharts.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "murCount.png"
         },
         {
@@ -244,8 +238,14 @@
         },
         {
             "name": "popCountord.png"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "murbarCharts.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 21:52:26",
+    "updated_at": "2018-10-10 21:53:52",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
