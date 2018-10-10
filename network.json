@@ -183,6 +183,16 @@
             ],
             "source": "mergedData.csv",
             "target": "murScatplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murScatPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "murScatplots.R",
+            "target": "murSactplot.png"
         }
     ],
     "nodes": [
@@ -265,6 +275,6 @@
             "name": "murSactplot.png"
         }
     ],
-    "updated_at": "2018-10-10 21:58:15",
+    "updated_at": "2018-10-10 21:58:37",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
