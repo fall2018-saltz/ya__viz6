@@ -173,6 +173,16 @@
             ],
             "source": "murbarCharts.R",
             "target": "popCountord.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "murScatplots.R"
         }
     ],
     "nodes": [
@@ -252,6 +262,6 @@
             "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-10 21:54:30",
+    "updated_at": "2018-10-10 21:54:57",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
