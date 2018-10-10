@@ -10,5 +10,5 @@ rownames(cleandata)=as.vector(cleandata[,"stateName"])
 #the column element is stateName
 mergedData=merge(cleandata,arrests,by="row.names")
 mergedData
-head(mergedData)
+
 
