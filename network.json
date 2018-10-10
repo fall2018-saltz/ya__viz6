@@ -53,6 +53,16 @@
             ],
             "source": "mergedData.csv",
             "target": "hist1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popHist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist1.R",
+            "target": "popHist.png"
         }
     ],
     "nodes": [
@@ -87,6 +97,6 @@
             "name": "popHist.png"
         }
     ],
-    "updated_at": "2018-10-10 20:27:23",
+    "updated_at": "2018-10-10 20:27:40",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
