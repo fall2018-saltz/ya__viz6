@@ -246,10 +246,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "not assigned",
             "desc": "",
-            "name": "murSactplots.R"
+            "name": "murScatplots.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-10 21:54:13",
+    "updated_at": "2018-10-10 21:54:30",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
