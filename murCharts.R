@@ -19,14 +19,14 @@ murCount2=murCount2 + ggtitle("Total Murders")
 murCount2=murCount2+ theme(axis.text.x = element_text(angle = 90, hjust = 1))
 murCount2
 
-#to create barchart for murder rate in increasing orderbarChart3 <- ggplot(mergeDataframe, aes(x = reorder(stateName, numMurders), y = numMurders, group = 1))
-barChart3 <- barChart3 + geom_col()
-barChart3 <- barChart3 + ggtitle("Sorted bar chart of murders per state")
-barChart3
+#to create barchart for murder rate in sorted order
+murCountord=ggplot(mergedData, aes(x = reorder(stateName, numMurders), y = numMurders, group = 1))
+murCountord=murCountord+ geom_col()
+murCountord=murCountord+ ggtitle("Bar chart of murders per state in sorted order")
+murCountord
 
-#generating a barchart to show percentOver18 as color of the bar using ggplot() and 
-#aes() to visualize the graph
-barChart4 <- ggplot(mergeDataframe, aes(x = reorder(stateName, numMurders), y = numMurders, group = 1))
-barChart4 <- barChart4 + geom_col(aes(size=percentOver18,color=percentOver18))
-barChart4 <- barChart4 + ggtitle("Sorted bar chart showing percentOver18 as color of bar")
-barChart4
+#to create barchart for percentOver18 in sorted order
+popCountord=ggplot(mergedData, aes(x = reorder(stateName, numMurders), y = numMurders, group = 1))
+popCountord=popCountord+ geom_col(aes(size=percentOver18,color=percentOver18))
+popCountord=popCountord + ggtitle("Bar chart for percentOver18 in sorted order")
+popCountord
