@@ -1,5 +1,6 @@
 
 #ggplot2 library has to be used to create ggplots
+#just use the library as it is already imported
 library("ggplot2")
 
 #aes are used to add a and y axes
