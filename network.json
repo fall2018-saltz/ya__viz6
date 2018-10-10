@@ -43,6 +43,16 @@
             ],
             "source": "mergeData.R",
             "target": "mergedData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "hist1.R"
         }
     ],
     "nodes": [
@@ -68,10 +78,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "yash",
             "desc": "",
-            "name": "hist1.R"
+            "name": "hist1.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 19:27:46",
+    "updated_at": "2018-10-10 19:28:26",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
