@@ -2,6 +2,7 @@
 # to create a function to read the data
 cenFun=function(raw_data)
 {
+#pass the csv data into the dfStates variable
 dfStates=raw_data
 dfStates=dfStates[-53,]
 dfStates=dfStates[-1,]
