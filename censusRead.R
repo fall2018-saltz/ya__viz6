@@ -9,11 +9,7 @@ colnames(dfStates)=c("stateName","population","popOver18","percentOver18")
 return(dfStates)
 }
 cleandata=cenFun(raw_data)
+cleandata
 
 
 
-arrests=USArrests
-arrests
-arrests$stateName=""
-arrests$stateName=rownames(arrests)
-head(arrests)
