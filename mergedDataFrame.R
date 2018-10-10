@@ -8,5 +8,6 @@ rownames(cleandata)=as.vector(cleandata[,"stateName"})
 
 #now that we have to merge two dataframes using a common element 
 #the column element is stateName
+mergedData=merge(cleandata,arrests,by="row.names")
 
 
