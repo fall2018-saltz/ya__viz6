@@ -32,12 +32,14 @@ assHist=assHist+geom_histogram(binwidth=20)
 assHist=assHist+ggtitle("Assault Histogram")
 assHist
 
-#generate a Histogram for Rape#here Rape is on the x-axis
+#generate a Histogram for Rape
+#here Rape is on the x-axis
 rapeHist=ggplot(mergedData, aes(x=Rape))
 rapeHist=rapeHist+geom_histogram(binwidth=20)
 rapeHist=rapeHist+ggtitle("Rape Histogram")
 rapeHist
 
+#generate a Histogram for UrbanPop
 #here UrbanPop is on the x-axis
 urbanHist=ggplot(mergedData, aes(x=UrbanPop))
 urbanHist=urbanHist+geom_histogram(binwidth=20)
