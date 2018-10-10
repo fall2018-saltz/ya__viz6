@@ -2,6 +2,7 @@
 #ggplot2 library has to be used to create ggplots
 library("ggplot2")
 
+#aes are used to add a and y axes
 myPlotPop2 <- ggplot(mergeDataframe, aes(x=factor(0),y=population))
 myPlotPop2 <- myPlotPop2 + geom_boxplot()
 myPlotPop2 <- myPlotPop2 + ggtitle("Boxplot of Population")
