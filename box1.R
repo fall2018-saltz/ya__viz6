@@ -17,3 +17,5 @@ murBox=ggplot(mergedData, aes(x=factor(0),y=Murder))
 murBox=murBox+ geom_boxplot()
 murBox=murBox+ ggtitle("Murder Boxplot")
 murBox
+
+#the barcharts seemed more helpful
