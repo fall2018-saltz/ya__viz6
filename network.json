@@ -187,7 +187,7 @@
         {
             "ports": [
                 {
-                    "output": "murScatPlot",
+                    "output": "murScatplot",
                     "type": "png"
                 }
             ],
@@ -275,6 +275,6 @@
             "name": "murSactplot.png"
         }
     ],
-    "updated_at": "2018-10-10 21:58:37",
+    "updated_at": "2018-10-10 21:59:29",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
