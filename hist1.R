@@ -4,6 +4,7 @@
 #to use ggplots we must use ggplots library
 #ggplots is already installed so just use it
 library("ggplot2")
+
 #generate a histogram for population
 
 #aes is used to add the axis here
@@ -15,6 +16,7 @@ popHist=popHist+geom_histogram(binwidth = 1000000)
 popHist=popHist+ggtitle("Population Histogram")
 popHist
 
+#generate a histogram for Murder
 #here Murder is on the x-axis
 murHist=ggplot(mergedData, aes(x=Murder))
 murHist=murHist+geom_histogram(binwidth=10)
