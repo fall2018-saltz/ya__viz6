@@ -10,6 +10,7 @@ library("ggplot2")
 popHist=ggplot(mergeDataframe, aes(x=population))
 #geom_histogram is used to create the bars of the histogram with a binwidth of 1000000 
 #since the data here is very huge, we used 1000000
-myPlotPop=myPlotPop + geom_histogram(binwidth = 1000000)
-myPlotPop=myPlotPop + ggtitle("Histogram of Population")
-myPlotPop
+popHist=popHist+geom_histogram(binwidth = 1000000)
+#ggtitle is used to add tttle to the hsitogram
+popHist=popHist+ggtitle("Population Histogram")
+popHist
