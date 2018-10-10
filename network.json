@@ -33,6 +33,16 @@
             ],
             "source": "cleanA.csv",
             "target": "mergedDataFrame.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedDataFrame.R",
+            "target": "mergedData.csv"
         }
     ],
     "nodes": [
@@ -58,6 +68,6 @@
             "name": "mergedData.csv"
         }
     ],
-    "updated_at": "2018-10-10 19:24:49",
+    "updated_at": "2018-10-10 19:25:02",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
