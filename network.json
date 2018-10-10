@@ -286,8 +286,11 @@
         },
         {
             "name": "rapeHist.png"
+        },
+        {
+            "name": "stateMurders.csv"
         }
     ],
-    "updated_at": "2018-10-10 22:08:43",
+    "updated_at": "2018-10-10 22:10:44",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
