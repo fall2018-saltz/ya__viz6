@@ -82,8 +82,11 @@
             "desc": "",
             "name": "hist1.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "popHist.png"
         }
     ],
-    "updated_at": "2018-10-10 19:28:26",
+    "updated_at": "2018-10-10 20:27:23",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
