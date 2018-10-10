@@ -1,4 +1,5 @@
 
+# to create a function to read the data
 cenFun=function(raw_data)
 {
 dfStates=raw_data
