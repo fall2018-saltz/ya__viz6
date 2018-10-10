@@ -146,10 +146,15 @@
             "name": "UrbanpopHist.png"
         },
         {
+            "assigned_to": "yash",
             "desc": "",
-            "name": "box1.R"
+            "name": "box1.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "popBox.png"
         }
     ],
-    "updated_at": "2018-10-10 20:46:23",
+    "updated_at": "2018-10-10 20:56:45",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
