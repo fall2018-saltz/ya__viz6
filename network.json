@@ -93,6 +93,16 @@
             ],
             "source": "hist1.R",
             "target": "UrbanpopHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "box1.R"
         }
     ],
     "nodes": [
@@ -140,6 +150,6 @@
             "name": "box1.R"
         }
     ],
-    "updated_at": "2018-10-10 20:45:58",
+    "updated_at": "2018-10-10 20:46:23",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
