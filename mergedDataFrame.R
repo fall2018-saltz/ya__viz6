@@ -1,3 +1,6 @@
 
-#take the USArrests data set onto arrests variable arrests=USArrests
+#take the USArrests data set into arrests variable 
+arrests=USArrests
+
+
 
