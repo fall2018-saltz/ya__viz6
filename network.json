@@ -27,32 +27,172 @@
         {
             "ports": [
                 {
-                    "output": "arrests",
-                    "type": "csv"
-                }
-            ],
-            "source": "USArrestsRead.R",
-            "target": "arrests.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "arrests",
-                    "type": "csv"
-                }
-            ],
-            "source": "arrests.csv",
-            "target": "mergedDataFrame.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "cleanA.csv",
+                    "input": "cleandata",
                     "type": "csv"
                 }
             ],
             "source": "cleanA.csv",
-            "target": "mergedDataFrame.R"
+            "target": "mergeData.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeData.R",
+            "target": "mergedData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "hist1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popHist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist1.R",
+            "target": "popHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murHist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist1.R",
+            "target": "murHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "assHist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist1.R",
+            "target": "assHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "urbanHist",
+                    "type": "png"
+                }
+            ],
+            "source": "hist1.R",
+            "target": "UrbanpopHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "box1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popBox",
+                    "type": "png"
+                }
+            ],
+            "source": "box1.R",
+            "target": "popBox.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murBox",
+                    "type": "png"
+                }
+            ],
+            "source": "box1.R",
+            "target": "murBox.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "murbarCharts.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murCount",
+                    "type": "png"
+                }
+            ],
+            "source": "murbarCharts.R",
+            "target": "murCount.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murCount2",
+                    "type": "png"
+                }
+            ],
+            "source": "murbarCharts.R",
+            "target": "murCount2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murCountord",
+                    "type": "png"
+                }
+            ],
+            "source": "murbarCharts.R",
+            "target": "murCountord.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popCountord",
+                    "type": "png"
+                }
+            ],
+            "source": "murbarCharts.R",
+            "target": "popCountord.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedData.csv",
+            "target": "murScatplots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murScatplot",
+                    "type": "png"
+                }
+            ],
+            "source": "murScatplots.R",
+            "target": "murSactplot.png"
         }
     ],
     "nodes": [
@@ -66,24 +206,75 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "yash",
-            "desc": "",
-            "name": "mergedDataFrame.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "yash",
-            "desc": "",
-            "name": "USArrestsRead.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "cleanA.csv"
         },
         {
-            "name": "arrests.csv"
+            "name": "mergedData.csv"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "mergeData.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "hist1.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "popHist.png"
+        },
+        {
+            "name": "murHist.png"
+        },
+        {
+            "name": "assHist.png"
+        },
+        {
+            "name": "UrbanpopHist.png"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "box1.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "popBox.png"
+        },
+        {
+            "name": "murBox.png"
+        },
+        {
+            "name": "murCount.png"
+        },
+        {
+            "name": "murCount2.png"
+        },
+        {
+            "name": "murCountord.png"
+        },
+        {
+            "name": "popCountord.png"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "murbarCharts.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yash",
+            "desc": "",
+            "name": "murScatplots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "murSactplot.png"
         }
     ],
-    "updated_at": "2018-10-09 21:40:02",
+    "updated_at": "2018-10-10 21:59:29",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
