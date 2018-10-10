@@ -27,7 +27,7 @@
         {
             "ports": [
                 {
-                    "input": "cleanA.csv",
+                    "input": "cleandata",
                     "type": "csv"
                 }
             ],
@@ -55,6 +55,6 @@
             "name": "cleanA.csv"
         }
     ],
-    "updated_at": "2018-10-10 19:07:45",
+    "updated_at": "2018-10-10 19:20:29",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
