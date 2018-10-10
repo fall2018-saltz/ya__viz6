@@ -203,6 +203,16 @@
             ],
             "source": "hist1.R",
             "target": "rapeHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "stateMurders",
+                    "type": "csv"
+                }
+            ],
+            "source": "murbarCharts.R",
+            "target": "stateMurders.csv"
         }
     ],
     "nodes": [
@@ -291,6 +301,6 @@
             "name": "stateMurders.csv"
         }
     ],
-    "updated_at": "2018-10-10 22:10:44",
+    "updated_at": "2018-10-10 22:10:59",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
