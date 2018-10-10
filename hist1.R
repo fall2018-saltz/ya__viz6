@@ -38,3 +38,5 @@ urbanHist=ggplot(mergedData, aes(x=UrbanPop))
 urbanHist=urbanHist+geom_histogram(binwidth=20)
 urbanHist=urbanHist+ ggtitle("UrbanPop Histogram")
 urbanHist
+
+#here to generate the hisograms, we are uisng the binwidth variable
