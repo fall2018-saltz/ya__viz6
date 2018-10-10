@@ -103,6 +103,16 @@
             ],
             "source": "mergedData.csv",
             "target": "box1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popBox",
+                    "type": "png"
+                }
+            ],
+            "source": "box1.R",
+            "target": "popBox.png"
         }
     ],
     "nodes": [
@@ -155,6 +165,6 @@
             "name": "popBox.png"
         }
     ],
-    "updated_at": "2018-10-10 20:56:45",
+    "updated_at": "2018-10-10 20:56:57",
     "url": "https://github.com/fall2018-saltz/ya__viz6"
 }
