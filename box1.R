@@ -18,4 +18,5 @@ murBox=murBox+ geom_boxplot()
 murBox=murBox+ ggtitle("Murder Boxplot")
 murBox
 
-#the boxplots are better  
+#the boxplots are better 
+#because they can give more information 
