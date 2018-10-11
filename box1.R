@@ -19,4 +19,4 @@ murBox=murBox+ ggtitle("Murder Boxplot")
 murBox
 
 #the boxplots are better 
-#because they can give more information 
+#because they can give more information at a time like the summary
