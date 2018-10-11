@@ -20,3 +20,4 @@ murBox
 
 #the boxplots are better 
 #because they can give more information at a time like the summary
+#boxplot can be created for variables by group as well
