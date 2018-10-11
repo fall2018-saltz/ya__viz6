@@ -18,6 +18,6 @@ murBox=murBox+ geom_boxplot()
 murBox=murBox+ ggtitle("Murder Boxplot")
 murBox
 
-#the barcharts seemed more helpful
-#it is easier to analyze
-#its easier to compare 
+#the boxplots are better 
+#because they can give more information at a time like the summary
+#boxplot can be created for variables by group as well
